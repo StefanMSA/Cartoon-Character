@@ -1,0 +1,79 @@
+@import url('https://fonts.googleapis.com/css2?family=Zen+Tokyo+Zoo&display=swap');
+@import url('https://fonts.googleapis.com/css2?family=Dancing+Script&display=swap');
+@import url('https://fonts.googleapis.com/css2?family=Lobster&display=swap');
+
+body {
+  margin: 0px;
+  font-family: 'Dancing Script', cursive;
+  font-size: 20px;
+}
+header {
+  text-align: center;
+  background-image: url('header.png');
+  padding: 20px;
+  padding-bottom: 0px;
+  color: white;
+
+}
+h1 {
+  padding: 20px;
+  margin-bottom: 0px;
+  font-family: 'Zen Tokyo Zoo', cursive;
+  font-weight: 100;
+  text-shadow: 4px 2px 2px ;
+  font-size: 70px;
+
+}
+
+main {
+  max-width: 700px;
+  margin: 0px auto;
+}
+h2 {
+  font-size: 30px;
+  padding: 10px;
+  font-family: 'Lobster', cursive;
+}
+p {
+  text-indent: 10px;
+}
+.caption {
+  margin-top: 0px !important;
+}
+.img-avatar {
+  border-radius:100%;
+  border: 10px solid #ffb7c5;
+  width: 300px;
+  height: 300px;
+  background-position: center;
+  background-size: cover;
+}
+ .img-big {
+   width: 700px;
+   height: 400px;
+   background-size: cover;
+;
+
+
+ }
+footer {
+  text-align: center;
+  background-image: url('header.png');
+  color: white;
+}
+footer p {
+  margin: 0px;
+  padding: 40px;
+  font-size: 30px;
+}
+a {
+  target:'_blank';
+}
+.link-kaboom {
+  color: #ffb7c5;
+  text-decoration:none;
+}
+footer p a:hover {
+  color: red;
+  text-decoration: underline !important;
+}
